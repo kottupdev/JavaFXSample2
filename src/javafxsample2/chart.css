@@ -1,0 +1,17 @@
+.chart {
+    -fx-category-gap:0.0px;
+    -fx-background-color: -fx-box-border, #f5f5f5;
+    -fx-background-insets: 0, 1;
+}
+#chartApp .default-color0.chart-bar{
+    -fx-stroke-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: rgba(50,180,230,0.6);
+    -fx-background-position: left center;
+}
+#chartApp2 .default-color0.chart-bar{
+    -fx-stroke-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: rgba(180,230,50,0.6);
+    -fx-background-position: left center;
+}

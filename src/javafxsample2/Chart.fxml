@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane id="_root" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxsample2.ChartController">
+    <stylesheets>    
+        <URL value="@chart.css" />
+    </stylesheets>
+    <top>
+            <MenuBar id="menuBer" layoutY="2.0">
+                    <menus>
+                            <Menu mnemonicParsing="false" text="メニュー" />
+                    </menus>
+            </MenuBar>
+    </top>
+    <center>
+        <VBox>
+        <StackedBarChart fx:id="chartApp" BorderPane.alignment="CENTER">
+            <xAxis>
+                    <CategoryAxis fx:id="xAxis1" side="BOTTOM" />
+            </xAxis>
+            <yAxis>
+                    <NumberAxis fx:id="yAxis1" side="LEFT" />
+            </yAxis>
+	</StackedBarChart>
+        <StackedBarChart fx:id="chartApp2" BorderPane.alignment="CENTER">
+            <xAxis>
+                    <CategoryAxis fx:id="xAxis2" side="BOTTOM" />
+            </xAxis>
+            <yAxis>
+                    <NumberAxis fx:id="yAxis2" side="LEFT" />
+            </yAxis>
+	</StackedBarChart>
+        </VBox>
+    </center>
+</BorderPane>
